@@ -23,22 +23,29 @@
 			</div>
 				
 		</header>
-		<button id="btn" class="visible-xs" onclick="$('nav').removeClass('visible-xs');">
-			<span>=</span>
-		</button>
-		<!--End Header-->
-		<nav class="hidden-xs">
-		<div class="clearfix"></div>
-			<div class="container">
-				<h3 class="float-left"><span>ENG</span>HASAN</h3>
-				<ul class="list-unstyled float-right">
-					<li class="float-left"><a href="#">Home</a></li>
-					<li class="float-left"><a href="#">PortFolio</a></li>
-					<li class="float-left"><a href="#">About</a></li>
-					<li class="float-left"><a href="#">Features</a></li>
-				</ul>
-			</div>
-		</nav>
+		
+		<div class="nav-container">
+		
+		
+			<button id="btn" class="visible-xs" onclick="$('nav').toggleClass('visible-xs');">
+				<span>=</span>
+			</button>
+			<!--End Header-->
+			<nav class="hidden-xs">
+			<div class="clearfix"></div>
+				<div class="container">
+					<h3 class="float-left hidden-xs"><span>ENG</span>HASAN</h3>
+					<ul class="list-unstyled float-right">
+						<li class="float-left"><a href="#">Home</a></li>
+						<li class="float-left"><a href="#">PortFolio</a></li>
+						<li class="float-left"><a href="#">About</a></li>
+						<li class="float-left"><a href="#">Features</a></li>
+					</ul>
+				</div>
+			</nav>
+		
+		
+		</div>
 		
 		
 		
@@ -96,6 +103,8 @@
 			
 		</div>
 		<div class="clearfix"></div>
+		
+		
 		<div class="pricing-table text-center">
 			<div class="container">
 				<h2 class="h1">Our Pricing Plans</h2>
