@@ -278,18 +278,18 @@ footer .copy{
 		font-size: 16px;
 	}
 	.features h2{
-		font-size:30px
+		font-size:27px
 	}
 	.features .feat{
 		width:99%;
 	    margin-bottom: 30px;
 	}
 	.features .feat h2{
-		font-size: 25px;
+		font-size: 24px;
 	}
 	.features .feat .responsive-paragraph{
 		text-align:center;
-		font-size: 15px;
+		font-size: 13px;
 	}
 	
 	.our-works .images{
@@ -312,7 +312,7 @@ footer .copy{
 		height:400px
 	}
 	.they-say h2{
-		font-size:27px
+	    font-size: 26px;
 	}
 	.they-say .person-say h3{
 		text-align:center
